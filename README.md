@@ -8,7 +8,7 @@ Create an app to text yourself compliments, courtesy of the Twilio API!
 - Use your Account SID and Account Secret to create an awesome app that texts you a random compliment when you submit a form!
 
 - The starter code provided:
-  - The Twilio gem is already installed and the initializing code is provided within the Notification model (notice that the model doesn't inherit from ActiveRecord) Read the documentation in order to send your text messages: https://github.com/twilio/twilio-ruby
+  - The Twilio gem is already installed and the initializing code is provided within the Notification model. Read the documentation in order to send your text messages: https://github.com/twilio/twilio-ruby
   - We're using the Figaro gem to hide your secret credentials, check out the documentation https://github.com/laserlemon/figaro and add your SID and Secret Token to the application.yml
 
 - All you have to do is add a view where you will be able to send a text, then tweak the model and controller to make your application work.
