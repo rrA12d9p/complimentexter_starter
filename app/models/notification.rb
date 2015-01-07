@@ -15,6 +15,7 @@ class Notification
   end
 
   def random_compliment
+    compliments = [] #enter compliments there
     # Generates a random compliment to send to the textee
   end
 end
