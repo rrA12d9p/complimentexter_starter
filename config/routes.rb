@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :notifications, only: [:new, :create]
+
   root 'notifications#new'
 
   # The priority is based upon order of creation: first created -> highest priority.
